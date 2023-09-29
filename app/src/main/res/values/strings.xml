@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Projec1</string>
+    <string name="add_question">Add Question</string>
+    <string name="start_game">Start Game</string>
+</resources>
