@@ -19,10 +19,8 @@ class QuizCards : AppCompatActivity() {
         flashcards = intent.getParcelableArrayListExtra("flashcards") ?: emptyList()
 
 
-
         txtFlashcard = findViewById(R.id.txtFlashcard)
         btnFlipCard = findViewById(R.id.btnFlipCard)
-
 
         // Configurar el botón para voltear la tarjeta
         btnFlipCard.setOnClickListener {
